@@ -6,6 +6,8 @@ The proposed Flutter application is designed to display a categorized list of ve
 Technologies & Framework : 
 
 Forntend : Flutter, Dart
+
+
 Backend : Firebase Firestore (DataBase)
 
 
