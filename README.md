@@ -1,16 +1,7 @@
 # eco_drive
 
-A new Flutter project.
+The proposed Flutter application is designed to display a categorized list of vehicles based on their fuel efficiency and pollution levels. The app evaluates vehicles based on two key parameters: mileage (km/litre) and age (years).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Green-coded: Vehicles with 15 km/l or more mileage and ≤5 years old (fuel-efficient & low pollutant).
+Amber-coded: Vehicles with 15 km/l or more mileage but >5 years old (fuel-efficient but moderately pollutant).
+Red-coded: All other vehicles (low fuel efficiency & high pollutant).
